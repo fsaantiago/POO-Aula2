@@ -28,7 +28,7 @@ public class NotasAlunos {
     public String avaliarAluno {
         if ((this.notaAV1 + this.notaAV2) >= 60) 
             return "Aprovado!";
-         else 
+         else
             return "Recuperacao!";
     }
 

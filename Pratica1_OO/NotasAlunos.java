@@ -32,7 +32,7 @@ public class NotasAlunos {
             return "Recuperacao!";
     }
 
-    public avaliarRecuperacao {
+    public float avaliarRecuperacao {
         if (((this.notaAV1 + this.notaAV2) + this.notaAVE) >= 60)
             return "Aprovado!";
          else 

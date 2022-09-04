@@ -25,16 +25,16 @@ public class NotasAlunos {
         this.notaAVE = nota;
     }
 
-    public String avaliarAluno {
+    public String avaliarAluno() {
         if ((this.notaAV1 + this.notaAV2) >= 60) 
             return "Aprovado!";
          else
             return "Recuperacao!";
     }
 
-    public float avaliarRecuperacao {
+    public String avaliarRecuperacao() {
         if (((this.notaAV1 + this.notaAV2) + this.notaAVE) >= 60)
-            return "Aprovado!";
+        	return "Aprovado!";
          else 
             return "Reprovado!";    
     }

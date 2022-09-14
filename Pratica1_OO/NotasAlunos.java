@@ -1,4 +1,4 @@
-package br.com.aula2.exercicios;
+import package br.com.aula2.exercicios;
 
 public class NotasAlunos {
     private String nome, curso;

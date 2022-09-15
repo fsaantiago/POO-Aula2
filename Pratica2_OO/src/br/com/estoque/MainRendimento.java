@@ -6,13 +6,15 @@ public class MainRendimento {
 	public static void main(String[] args) {
 		
 		double invesInicial;
-		double taxaRendimento = 1.02;
+		double taxaRendimento;
 		int numMeses = 0;
 		double invesFinal;
 		
 		Scanner ler = new Scanner(System.in);
 		System.out.println("Digite o numero do investimento inicial: ");
 		invesInicial = ler.nextDouble();
+		System.out.println("Digite o valor de taxa de rendimento: ");
+		taxaRendimento = ler.nextDouble();
 		invesFinal = invesInicial;
 		
 		Rendimento r1 = new Rendimento(invesInicial, taxaRendimento, numMeses);

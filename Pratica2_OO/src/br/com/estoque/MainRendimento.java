@@ -25,15 +25,5 @@ public class MainRendimento {
 			numMeses++;
 			System.out.println("Estes são os valores do investimento após o período de 12 meses: \n" + invesFinal);			
 		}
-		
-		
-		
-		/* c1.Depositar(valor);
-		System.out.println("Saldo: " + c1.ConsultaSaldo()); */
-		
-		/* precisa ter um contador */
-		
-		
 	}
-
 }

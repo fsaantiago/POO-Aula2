@@ -14,7 +14,7 @@ public class Rendimento {
 	public double getInvesInicial() {
 		return invesInicial;
 	}
-	public void setInvesInicial(Double invesInicial) {
+	public void setInvesInicial(double invesInicial) {
 		this.invesInicial = invesInicial;
 	}
 	public double getTaxaRendimento() {

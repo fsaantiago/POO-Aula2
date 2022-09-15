@@ -15,6 +15,8 @@ public class MainRendimento {
 		invesInicial = ler.nextDouble();
 		System.out.println("Digite o valor de taxa de rendimento: ");
 		taxaRendimento = ler.nextDouble();
+		System.out.println("Digite o numero de meses para o rendimento: ");
+		numMeses = ler.nextInt();
 		invesFinal = invesInicial;
 		
 		Rendimento r1 = new Rendimento(invesInicial, taxaRendimento, numMeses);

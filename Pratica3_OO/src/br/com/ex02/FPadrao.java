@@ -21,7 +21,5 @@ public class FPadrao extends Funcionario {
 		double salarioFixo;
 		salarioFixo = getSalario();
 		
-	}
-
-	
+	}	
 }

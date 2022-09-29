@@ -40,8 +40,8 @@ public class Carnaval {
 						JOptionPane.showMessageDialog(null, "Escolha corretamente uma das opcoes. ");
 						break;
 					
-				} while(opcao!=4);				
-		}	
+				} 				
+		} while(opcao!=4);
 	}
 }
 

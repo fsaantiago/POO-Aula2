@@ -52,12 +52,10 @@ public class FolhaPagamento {
 				
 			case 4:
 				JOptionPane.showMessageDialog(null, "Escolha corretamente uma das opcoes.");	
-				break;
-				
+				break;				
 			} 
 			
-		} while(opcao!=4);
-	
+		} while(opcao!=4);	
 	}
 }
 

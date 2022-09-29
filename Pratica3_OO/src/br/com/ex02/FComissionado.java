@@ -46,13 +46,4 @@ public class FComissionado extends Funcionario {
 		comissionado = getSalario()+(getVendas()*getPercentual());
 		
 	}
-	
-	/*
-	System.out.println("Valor Inicial:" + NumberFormat.getCurrencyInstance().format(getInvesInicial()));
-	System.out.println("Taxa de Juros: " + NumberFormat.getPercentInstance().format(getTaxaRendimento()/100));
-	for (int i=0; i < getNumMeses(); numMeses++) {
-		
-		invesFinal=invesFinal*getTaxaRendimento()/100+invesFinal;
-		System.out.println("Mês " + (i+1) + ": " + NumberFormat.getCurrencyInstance().format(invesFinal));*/
-
 }

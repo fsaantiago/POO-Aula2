@@ -3,7 +3,7 @@ package br.com.pagamento;
 public class CartaoCredito extends Pagamento{
 	String numeroCartao;
 	String bandeiraCartao;
-	String titularCartao;
+	String titularCartao;''
 	
 	public CartaoCredito(String dataHoraPagamento, int numeroPagamento, double valorPago, String numeroCartao,
 			String bandeiraCartao, String titularCartao) {
@@ -41,7 +41,6 @@ public class CartaoCredito extends Pagamento{
 	String titularCartao) {
 		this.numeroCartao=getNumeroCartao();
 		this.bandeiraCartao=getBandeiraCartao();
-		this.titularCartao=getTitularCartao();
-		
+		this.titularCartao=getTitularCartao();		
 	}
 }

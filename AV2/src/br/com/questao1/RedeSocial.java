@@ -1,4 +1,5 @@
 package br.com.questao1;
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.text.DateFormat;
@@ -58,10 +59,10 @@ public class RedeSocial {
 
 
   public void imprimePublicacoes() {
-	    System.out.println("Total de publicações: " + Publicacao.getContadorPublicacao());
+	    System.out.println("Total de publicacos: " + Publicacao.getContadorPublicacao());
 	    for (Publicacao publicacao : publicacoes) {
-	      System.out.println("Data e hora da publicação: " + publicacao.getDataPubli());
-	      System.out.println("Publicação: " + publicacao.getTextoPubli());
+	      System.out.println("Data e hora da publicacao: " + publicacao.getDataPubli());
+	      System.out.println("Publicacao: " + publicacao.getTextoPubli());
 	      System.out.println("Link: " + publicacao.getTextoPubli());
 	    }
 	    

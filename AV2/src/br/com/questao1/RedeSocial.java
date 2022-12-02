@@ -1,7 +1,5 @@
 package br.com.questao1;
 import java.util.ArrayList;
-
-import java.util.ArrayList;
 import java.util.Date;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -9,16 +7,16 @@ import java.text.SimpleDateFormat;
 public class RedeSocial {
   private String dataCriacao;
   private String nomUsuario;
-  private String dataNascimento;
+  private String dataNasc;
   private String senha;
 
   private ArrayList<Publicacao> publicacoes = new ArrayList<Publicacao>();
 
-  public RedeSocial(String nomeUsuario, String dataNascimento, String senha) {
+  public RedeSocial(String nomUsuario, String dataNasc, String senha) {
     DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
     this.dataCriacao = dateFormat.format(new Date());
-    this.nomUsuario = nomeUsuario;
-    this.dataNascimento = dataNascimento;
+    this.nomUsuario = nomUsuario;
+    this.dataNasc = dataNasc;
     this.senha = senha;
   }
 
@@ -34,16 +32,16 @@ public class RedeSocial {
     return nomUsuario;
   }
 
-  public void setNomUsuario(String nomeUsuario) {
-    this.nomUsuario = nomeUsuario;
+  public void setNomUsuario(String nomUsuario) {
+    this.nomUsuario = nomUsuario;
   }
 
   public String getDataNascimento() {
-    return dataNascimento;
+    return dataNasc;
   }
 
-  public void setDataNascimento(String dataNascimento) {
-    this.dataNascimento = dataNascimento;
+  public void setDataNascimento(String dataNasc) {
+    this.dataNasc = dataNasc;
   }
 
   public String getSenha() {
@@ -62,12 +60,12 @@ public class RedeSocial {
   public void imprimePublicacoes() {
 	    System.out.println("Total de publicações: " + Publicacao.getContadorPublicacao());
 	    for (Publicacao publicacao : publicacoes) {
-	      System.out.println("Data e hora da publicação: " + publicacao.getDataPublicacao());
-	      System.out.println("Publicação: " + publicacao.getTextoPublicacao());
-	      System.out.println("Link: " + publicacao.getTextoPublicacao());
+	      System.out.println("Data e hora da publicação: " + publicacao.getDataPubli());
+	      System.out.println("Publicação: " + publicacao.getTextoPubli());
+	      System.out.println("Link: " + publicacao.getTextoPubli());
 	    }
 	    
-  public void inserePublicacao(Publicacao publi) {
+  public void inserePubli(Publicacao publi) {
     this.publicacoes.add(publi);
   }
  

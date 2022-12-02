@@ -10,11 +10,11 @@ public class Publicacao {
   private String linkPubli;
   public static double contadorPublicacao;
 
-  public Publicacao(String textoPublicacao, String linkPublicacao) {
+  public Publicacao(String textoPubli, String linkPubli) {
     DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm");
     this.dataPubli = dateFormat.format(new Date());
-    this.textoPubli = textoPublicacao;
-    this.linkPubli = linkPublicacao;
+    this.textoPubli = textoPubli;
+    this.linkPubli = linkPubli;
     contadorPublicacao++;
   }
 

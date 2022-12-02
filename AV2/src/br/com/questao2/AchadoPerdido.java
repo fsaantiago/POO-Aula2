@@ -1,6 +1,5 @@
 package br.com.questao2;
 
-
 public class AchadoPerdido implements Publicacao {
     private String tituloPubli;
     private String descricaoPubli;

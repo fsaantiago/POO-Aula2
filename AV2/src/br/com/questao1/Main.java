@@ -10,7 +10,7 @@ public class Main {
     
     /*Leitura dos dados do usuario*/
     Scanner ler = new Scanner(System.in);
-    System.out.println("Digite o nome do usuário: ");
+    System.out.println("Digite o nome do usuario: ");
     nomUsuario = ler.nextLine();
     System.out.println("Digite sua data de nascimento: ");
     dataNasc = ler.nextLine();
@@ -20,24 +20,24 @@ public class Main {
     /*Leitura dos dados para RedeSocial*/
     RedeSocial RedeSocial = new RedeSocial(nomUsuario, dataNasc, senha);
 
-    System.out.println("Digite um texto para sua primeira publicação:");
+    System.out.println("Digite um texto para sua publicacao:");
     String textoPubli = ler.nextLine();
-    System.out.println("Link da mídia:");
+    System.out.println("Link da midia:");
     String linkMidia = ler.nextLine();
     Publicacao publicacao = new Publicacao(textoPubli, linkMidia);
     RedeSocial.inserePubli(publicacao);
 
     int opcao = 0;
     do {
-      System.out.println("Deseja inserir outra publicação? \n <1> Sim e <2> Não ");
+      System.out.println("Deseja inserir outra? \n <1> Sim <2> Não ");
       opcao = ler.nextInt();
 
       switch (opcao) {
         case 1:
         ler  = new Scanner(System.in);
-          System.out.println("Faça uma publicação:");
+          System.out.println("Faca uma publicacao:");
           textoPubli = ler.nextLine();
-          System.out.println("Link da mídia:");
+          System.out.println("Link da midia:");
           linkMidia = ler.nextLine();
           publicacao = new Publicacao(textoPubli, linkMidia);
           RedeSocial.inserePubli(publicacao);

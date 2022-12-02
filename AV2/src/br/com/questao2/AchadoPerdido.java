@@ -38,10 +38,13 @@ public class AchadoPerdido implements Publicacao {
 
     @Override
     public String verDetalhe() {
-        return "Detalhes : \nTitulo: " + this.tituloPubli
+        return "Detalhes :"
+        		+ "\nTitulo: " + this.tituloPubli
         		+ "\nDescrição: " + this.descricaoPubli
         		+ "\nFoto: " + this.fotoPubli
-                + "\nTipo: " + this.tipoPubli + "\nLocal Achado: " + this.localAchado + "\nData e Hora: " + this.dataHora
+                + "\nTipo: " + this.tipoPubli
+                + "\nLocal Achado: " + this.localAchado
+                + "\nData e Hora: " + this.dataHora
                 + "\nStatus do item: " + this.statusAchado;
     }
 
